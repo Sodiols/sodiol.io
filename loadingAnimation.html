@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sodiol Sayem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loadingAnimation.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="container" id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"
+            style="position: fixed; width: 100%; top: 0; z-index: 1001;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Sodiol Sayem</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+    <div class="main">
+        <div class="container mt-5" style="margin-top: 50px;">
+            <div class="col-12 col-md-12 home mt-5">
+                <h2 class="text-center pt-5" style="font-weight: bold;">Loading animation Using HTML, CSS</h2>
+                <a href="https://www.youtube.com/watch?v=30urgGb8ZAI" target="_blank"
+                    style="text-align: center; margin: 0 auto; display: block;margin-top: 2vh; font-size: 30px;">Click
+                    to see
+                    tutorial
+                    video</a>
+            </div>
+            <div class=" col-12 col-md-12 css">
+                <div class="code-container">
+                    <button id="copyHTMLButton">Copy HTML</button>
+                    <pre class="html-code">
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Loader&lt;/title&gt;
+                    &lt;link rel="stylesheet" href="style.css"&gt;
+                &lt;/head&gt;
+                
+                &lt;body&gt;
+                
+                    &lt;div class="loader"&gt;&lt;/div&gt;
+                    &lt;p&gt;Loading Please Wait...&lt;/p&gt;
+                
+                &lt;/body&gt;
+                
+                &lt;/html&gt;
+            </code>
+            </pre>
+
+                    <button id="copyCSSButton">Copy CSS</button>
+                    <pre class="css-code">
+            <code>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                .loader {
+                    border: 4px solid rgba(255, 255, 255, 0.3);
+                    border-top: 4px solid #3498db;
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    animation: spin 2s linear infinite;
+                    margin: 0 auto;
+                    margin-top: 30vh;
+                }
+                
+                @keyframes spin {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+                
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+                
+                p {
+                    text-align: center;
+                }
+            </code>
+            </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="copycode.js"></script>
+</body>
+
+</html>

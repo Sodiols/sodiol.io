@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sodiol Sayem</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog.css">
+
+    <style>
+        .blogs {
+            display: flex;
+            width: 100%;
+        }
+
+        .card {
+            width: 25%;
+            margin-left: 10%;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 40%;
+                margin-right: 10%;
+                margin-top: 30%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .blogs {
+                flex-direction: column;
+            }
+
+            .card {
+                width: 80%;
+                margin-right: 10%;
+                margin-top: 30%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container" id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: fixed; width: 100%; top: 0; z-index: 1;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Sodiol Sayem</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="blogs mt-5">
+        <div class="card mb-3">
+            <img src="./imgs/blog-img/loading-animation.png" class="card-img-top img-fluid" alt="Not Found">
+            <div class="card-body">
+                <h5 class="card-title">Loading Animation</h5>
+                <p class="card-text">How to make a loading animation using HTML and CSS</p>
+                <p class="card-text">3 Sep | 2 min read</p>
+                <a href="loadingAnimation.html" class="btn btn-secondary">Read Now</a>
+            </div>
+        </div>
+
+
+        <div class="card mb-3">
+            <img src="./imgs/blog-img/imghover.png" class="card-img-top img-fluid" alt="Not Found">
+            <div class="card-body">
+                <h5 class="card-title">Image Hover Effect</h5>
+                <p class="card-text">How to make a Image hover effect using HTML and CSS</p>
+                <p class="card-text">9 Sep | 2 min read</p>
+                <a href="imghover.html" class="btn btn-secondary">Read Now</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

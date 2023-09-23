@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* hero opention open */
+.hero {
+    height: 100vh;
+}
+
+.hero-txt {
+    margin-top: 30vh;
+    width: 100%;
+    color: black;
+    align-items: center;
+}
+
+.hero-txt h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.hero-txt p {
+    font-size: 35px;
+}
+
+.span {
+    color: #8a2be2;
+    font-weight: 600;
+}
+
+.hero-txt .btn {
+    background: #8a2be2;
+    color: #fff;
+    align-items: center;
+    width: 15%;
+}
+
+
+#elementJob {
+    font-size: 38px;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px #8400ff;
+    margin-top: -10px;
+}
+
+/* hero opention close */
+
+
+
+
+.about h2 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#element {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.about-main-txt {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-txt .btn {
+        width: 30%;
+    }
+}

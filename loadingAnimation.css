@@ -1,0 +1,29 @@
+.code-container {
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.code-container .html-code,
+.css-code {
+    background: #2a2a63;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    width: 95%;
+    overflow: scroll;
+    color: #fff;
+}
+
+.code-container code {
+    background: transparent;
+}
+
+.code-container button {
+    background: rgb(170, 107, 228);
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+}
