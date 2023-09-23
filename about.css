@@ -7,10 +7,6 @@
     justify-content: space-around;
 }
 
-.about .about-txt {
-    width: 45%;
-}
-
 .about .about-txt h1 {
     font-weight: 600;
     letter-spacing: 3px;
@@ -37,9 +33,11 @@
 
     .about-txt {
         width: 100%;
+        margin-top: -330px;
     }
 
     .about-img {
+        margin-top: 50px;
         width: 100%;
     }
 
